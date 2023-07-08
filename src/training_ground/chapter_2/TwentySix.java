@@ -1,7 +1,3 @@
-//2.26 (Multiples) Write an application that reads two integers, determines whether the first
-//        number tripled is a multiple of the second number doubled, and prints the result. [Hint: Use the
-//        remainder operator.]
-
 package training_ground.chapter_2;
 
 import java.util.Scanner;

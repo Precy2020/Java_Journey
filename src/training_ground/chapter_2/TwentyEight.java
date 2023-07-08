@@ -1,6 +1,4 @@
 package training_ground.chapter_2;
-//A B C a b c 0 1 2 $ * + /
-
 public class TwentyEight {
     public static void main(String[] args) {
 
