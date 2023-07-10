@@ -11,17 +11,7 @@ public class Volume_Of_A_Cylinder {
 
         double area = radius * radius * Math.PI;
         double volume = area * length;
-        System.out.println("The area is " + area + "\n" + "The volume is " + volume);
-
-
-
-
-
-
-
-
-
-
+        System.out.printf("%s %4f %n %s %4f","The area is ", area, "The volume is ", volume);
 
 
     }

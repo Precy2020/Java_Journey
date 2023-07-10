@@ -1,7 +1,7 @@
 package chapter_3;
 
 import org.junit.jupiter.api.Test;
-import deltel_deltel.chapter_2.chapter_3.Account;
+import deltel_deltel.chapter_3.Account;
 
 import static org.junit.jupiter.api.Assertions.*;
 
