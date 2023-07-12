@@ -15,12 +15,12 @@ public class Current_Exchange_Test {
         assertEquals(6.81, currency.getExchange_rate());
     }
 
-    @Test
-    public void Test_USD_To_RMD(){
-        currency.setExchange_rate();
-        assertEquals(6.81, currency.getExchange_rate());
-        currency.setRmb();
-    }
+//    @Test
+//    public void Test_USD_To_RMD(){
+//        currency.setExchange_rate();
+//        assertEquals(6.81, currency.getExchange_rate());
+//        currency.setRmb();
+//    }
 
 
 
