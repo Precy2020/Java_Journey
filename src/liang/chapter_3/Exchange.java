@@ -1,4 +1,4 @@
-package liang;
+package liang.chapter_3;
 
 public class Exchange {
 
