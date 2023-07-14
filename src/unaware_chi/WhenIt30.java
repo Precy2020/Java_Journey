@@ -13,10 +13,10 @@ public class WhenIt30 {
 
             if (score == 30) {
                 System.out.println("next");
-                joy++;
             }
             else{
                 sum = score + sum;
+                joy++;
             }
 
         }

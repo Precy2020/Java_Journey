@@ -13,7 +13,7 @@ public class Average_Sum_Of_EvenNumber {
             int score = key.nextInt();
             if (peace % 2 == 0) {
                 sum = score + sum;
-                average = peace / average;
+                average = sum / average;
             }
         }
         System.out.println("Sum: " + " " + sum);

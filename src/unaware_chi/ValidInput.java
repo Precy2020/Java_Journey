@@ -23,15 +23,3 @@ public class ValidInput {
         System.out.println("Sum: "+" "+sum);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
