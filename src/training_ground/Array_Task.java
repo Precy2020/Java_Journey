@@ -22,7 +22,6 @@ public class Array_Task {
                 peace[joy] = 'L';
             }
         }
-        System.out.println(Arrays.toString(peace));
 
         peace[2] = 'F';
         System.out.println(Arrays.toString(peace));
@@ -31,27 +30,5 @@ public class Array_Task {
             peace[joy] = '5';
         }
         System.out.println(Arrays.toString(peace));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
