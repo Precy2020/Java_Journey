@@ -8,15 +8,14 @@ public class Element_occur_in_a_list {
         System.out.println(Arrays.toString(element(number)));
     }
 
-    public static int[] element(int [] number){
-        int[] done = new int[]{0};
+    public static String[] element(int [] number){
+       String done = String.valueOf(4);
         for (int count = number.length; count <= 1; count++) {
-            if (number[4] == 29){
-                done = number;
+                done = Arrays.toString(number);
         }
 
-        }
-     return done;
+
+       return new String[]{done};
 
     }
 
