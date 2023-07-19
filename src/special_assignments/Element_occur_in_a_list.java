@@ -9,7 +9,7 @@ public class Element_occur_in_a_list {
     }
 
     public static String[] element(int [] number){
-       String done = String.valueOf(4);
+       String done = "";
         for (int count = number.length; count <= 1; count++) {
                 done = Arrays.toString(number);
         }

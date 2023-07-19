@@ -8,7 +8,7 @@ public class Total_of_a_list {
 
     public static int  total (int [] number){
         int total = 0;
-        for (int count = 0; count <= number.length; count++){
+        for (int count = 0; count <= number.length-1; count++){
             total = total + number[count];
         }
         return total;
