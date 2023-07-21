@@ -3,7 +3,7 @@ package unaware_chi;
 
 public class Seven_Segment {
     public static void main(String[] args) {
-        seven_segment("11111111");
+        seven_segment("11011011");
 
     }
 

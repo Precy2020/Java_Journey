@@ -1,0 +1,216 @@
+Ask for the user name in the main class
+create a method for all the questions in mb-ti *
+restrict the user from inputting any other than A and B using the if statement
+count the amount of As and Bs inputted
+display a document on the personally type of the user from his/her received data.
+
+Requirement
+1. You are to serve 20 questions.
+2. You are to collect all responses.
+3. CONSTRAINT: You are to ensure that Users selects only A or B
+4. You are to render his responses and his personality trait; You
+may want to consult https://www.16personalities.com/ for trait
+information to render.
+
+
+
+        System.out.println(selection[0][0] + "  \t" + selection[0][1]);
+        String first = key.next();
+        if (first.equals("A") || (first.equals("a")|| first.equals("B") || first.equals("b"))){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            first();
+        }
+
+        System.out.println(selection[1][0] + "  \t" + selection[1][1]);
+        String second = key.next();
+        if (second.equals("A") || second.equals("a") || second.equals("B") || second.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            second();
+        }
+
+
+        System.out.println(selection[2][0] + "  \t" + selection[2][1]);
+        String third = key.next();
+        if (third.equals("A") || third.equals("a") || third.equals("B") || third.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            third();
+        }
+
+        System.out.println(selection[3][0] + "  \t" + selection[3][1]);
+        String forth = key.next();
+        if (forth.equals("A") || forth.equals("a") || forth.equals("B") || forth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            forth();
+        }
+
+        System.out.println(selection[4][0] + "  \t" + selection[4][1]);
+        String fifth = key.next();
+        if (fifth.equals("A") || fifth.equals("a") || fifth.equals("B") || fifth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            fifth();
+        }
+
+        System.out.println(selection[5][0] + "  \t" + selection[5][1]);
+        String sixth = key.next();
+        if (sixth.equals("A") || sixth.equals("a") || sixth.equals("B") || sixth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            sixth();
+        }
+
+        System.out.println(selection[6][0] + "  \t" + selection[6][1]);
+        String seventh = key.next();
+        if (seventh.equals("A") || seventh.equals("a") || seventh.equals("B") || seventh.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            seventh();
+        }
+
+        System.out.println(selection[7][0] + "  \t" + selection[7][1]);
+        String eighth = key.next();
+        if (eighth.equals("A") || eighth.equals("a") || eighth.equals("B") || eighth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            eighth();
+        }
+
+        System.out.println(selection[8][0] + "  \t" + selection[8][1]);
+        String ninth = key.next();
+        if (ninth.equals("A") || ninth.equals("a") || ninth.equals("B") || ninth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            ninth();
+        }
+
+        System.out.println(selection[9][0] + "  \t" + selection[9][1]);
+        String tenth = key.next();
+        if (tenth.equals("A") || tenth.equals("a") || tenth.equals("B") || tenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            tenth();
+        }
+
+        System.out.println(selection[10][0] + "  \t" + selection[10][1]);
+        String eleventh = key.next();
+        if (eleventh.equals("A") || eleventh.equals("a") || eleventh.equals("B") || eleventh.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            eleventh();
+        }
+
+        System.out.println(selection[11][0] + "  \t" + selection[11][1]);
+        String twelve = key.next();
+        if (twelve.equals("A") || twelve.equals("a") || twelve.equals("B") || twelve.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            twelve();
+        }
+
+        System.out.println(selection[12][0] + "  \t" + selection[12][1]);
+        String thirteen = key.next();
+        if (thirteen.equals("A") || thirteen.equals("a") || thirteen.equals("B") || thirteen.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            thirteen();
+        }
+
+        System.out.println(selection[13][0] + "  \t" + selection[13][1]);
+        String fourteenth = key.next();
+        if (fourteenth.equals("A") || fourteenth.equals("a") || fourteenth.equals("B") || fourteenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            fourteenth();
+        }
+
+        System.out.println(selection[14][0] + "  \t" + selection[14][1]);
+        String fifteenth = key.next();
+        if (fifteenth.equals("A") || fifteenth.equals("a") || fifteenth.equals("B") || fifteenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            fifteenth();
+        }
+
+        System.out.println(selection[15][0] + "  \t" + selection[15][1]);
+        String sixteenth = key.next();
+        if (sixteenth.equals("A") || sixteenth.equals("a") || sixteenth.equals("B") || sixteenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            sixteenth();
+        }
+
+        System.out.println(selection[16][0] + "  \t" + selection[16][1]);
+        String seventeenth = key.next();
+        if (seventeenth.equals("A") || seventeenth.equals("a") || seventeenth.equals("B") || seventeenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            seventeenth();
+        }
+
+        System.out.println(selection[17][0] + "  \t" + selection[17][1]);
+        String eighteenth = key.next();
+        if (eighteenth.equals("A") || eighteenth.equals("a") || eighteenth.equals("B") || eighteenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            eighteenth();
+        }
+
+        System.out.println(selection[18][0] + "  \t" + selection[18][1]);
+        String nineteenth = key.next();
+        if (nineteenth.equals("A") || nineteenth.equals("a") || nineteenth.equals("B") || nineteenth.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            nineteenth();
+        }
+
+        System.out.println(selection[19][0] + "  \t" + selection[19][1]);
+        String twenty = key.next();
+        if (twenty.equals("A") || twenty.equals("a") || twenty.equals("B") || twenty.equals("b")){
+
+        }
+        else{
+            System.out.println("Not Valid :(");
+            twenty();
+        }
