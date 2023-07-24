@@ -1,7 +1,7 @@
 package liang.chapter_2;
 import java.util.Scanner;
 
-public class Converting_feet_to_meter {
+public class ConvertingFeetToMeter {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

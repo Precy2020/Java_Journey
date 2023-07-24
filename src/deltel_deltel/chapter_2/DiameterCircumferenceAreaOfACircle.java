@@ -2,7 +2,7 @@ package deltel_deltel.chapter_2;
 
 import java.util.Scanner;
 
-public class Diameter_Circumference_Area_Of_A_Circle {
+public class DiameterCircumferenceAreaOfACircle {
     public static void main(String[] args) {
 
         Scanner tired = new Scanner(System.in);

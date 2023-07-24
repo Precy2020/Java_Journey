@@ -1,7 +1,7 @@
 package deltel_deltel.chapter_2;
 import java.util.Scanner;
 
-public class Square_Sum_Square_And_Difference {
+public class SquareSumSquareAndDifference {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

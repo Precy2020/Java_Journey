@@ -2,7 +2,7 @@ package deltel_deltel.chapter_4;
 
 import java.util.Scanner;
 
-public class Enforcing_with_cryptography {
+public class EnforcingWithCryptography {
     public static void main(String[] args) {
         Scanner key = new Scanner(System.in);
         System.out.println(">> ");

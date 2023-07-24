@@ -1,6 +1,6 @@
 package deltel_deltel.chapter_2;
 
-public class Table_Of_Squares_And_Cubes {
+public class TableOfSquaresAndCubes {
     public static void main(String[] args) {
 
 

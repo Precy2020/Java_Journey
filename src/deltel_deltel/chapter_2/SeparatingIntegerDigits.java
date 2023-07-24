@@ -2,7 +2,7 @@ package deltel_deltel.chapter_2;
 
 import java.util.Scanner;
 
-public class Separating_Integer_Digits {
+public class SeparatingIntegerDigits {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

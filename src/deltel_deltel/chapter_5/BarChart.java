@@ -2,7 +2,7 @@ package deltel_deltel.chapter_5;
 
 import java.util.Scanner;
 
-public class Bar_chart {
+public class BarChart {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println(">>> ");

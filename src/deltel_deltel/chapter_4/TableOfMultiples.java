@@ -1,6 +1,6 @@
 package deltel_deltel.chapter_4;
 
-public class Table_of_multiples {
+public class TableOfMultiples {
     public static void main(String[] args) {
          int num = 1;
         System.out.println("\t\tN1\t\tN2\t\tN3\t\tN4");

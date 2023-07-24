@@ -1,7 +1,7 @@
 package liang.chapter_2;
 import java.util.Scanner;
 
-public class Numbers_of_years {
+public class NumbersOfYears {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

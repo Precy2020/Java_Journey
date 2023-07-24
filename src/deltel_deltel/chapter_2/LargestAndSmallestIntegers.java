@@ -2,7 +2,7 @@ package deltel_deltel.chapter_2;
 
 import java.util.Scanner;
 
-public class Largest_And_Smallest_Integers {
+public class LargestAndSmallestIntegers {
     public static void main(String[] args) {
 
         Scanner divisible = new Scanner(System.in);

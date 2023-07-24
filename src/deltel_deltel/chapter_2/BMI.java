@@ -2,7 +2,7 @@ package deltel_deltel.chapter_2;
 
 import java.util.Scanner;
 
-public class B_M_I {
+public class BMI {
     public static void main(String[] args) {
 
         Scanner heart = new Scanner(System.in);

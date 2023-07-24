@@ -1,7 +1,7 @@
 package liang.chapter_2;
 import java.util.Scanner;
 
-public class Calculate_tips {
+public class CalculateTips {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

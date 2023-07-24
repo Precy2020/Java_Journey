@@ -2,7 +2,7 @@ package liang.chapter_2;
 
 import java.util.Scanner;
 
-public class Calculate_monthly_interest {
+public class CalculateMonthlyInterest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

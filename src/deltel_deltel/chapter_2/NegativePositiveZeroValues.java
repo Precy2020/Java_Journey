@@ -2,7 +2,7 @@ package deltel_deltel.chapter_2;
 
 import java.util.Scanner;
 
-public class Negative_Positive_Zero_Values {
+public class NegativePositiveZeroValues {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

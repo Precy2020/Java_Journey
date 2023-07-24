@@ -2,7 +2,7 @@ package deltel_deltel.chapter_2;
 
 import java.util.Scanner;
 
-public class Divisible_By_Three {
+public class DivisibleByThree {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Input a digit: ");

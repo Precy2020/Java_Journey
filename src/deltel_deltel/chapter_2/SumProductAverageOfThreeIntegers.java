@@ -1,7 +1,7 @@
 package deltel_deltel.chapter_2;
 import java.util.Scanner;
 
-public class Sum_Product_Average_Of_Three_Integers {
+public class SumProductAverageOfThreeIntegers {
     public static void main(String[] args) {
         Scanner sweet = new Scanner(System.in);
         System.out.print("Enter a number: ");

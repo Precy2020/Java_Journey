@@ -2,7 +2,7 @@ package liang.chapter_2;
 
 import java.util.Scanner;
 
-public class Physics_acceleration {
+public class PhysicsAcceleration {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter v0, v1 and t: ");

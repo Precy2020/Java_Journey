@@ -2,7 +2,7 @@ package liang.chapter_2;
 
 import java.util.Scanner;
 
-public class Sum_of_the_digits_of_an_integer {
+public class SumOfTheDigitsOfAnInteger {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

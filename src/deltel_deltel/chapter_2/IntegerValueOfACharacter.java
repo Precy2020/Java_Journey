@@ -1,7 +1,7 @@
 package deltel_deltel.chapter_2;
 
 
-public class Integer_Value_Of_A_Character {
+public class IntegerValueOfACharacter {
     public static void main(String[] args) {
 
         System.out.printf("The character %c has the value %d%n", 'A', ((int) 'A'));
