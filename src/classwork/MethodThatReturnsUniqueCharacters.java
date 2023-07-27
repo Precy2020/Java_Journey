@@ -3,36 +3,16 @@ package classwork;
 public class MethodThatReturnsUniqueCharacters {
     public static void main(String[] args) {
 
-        returns_special_characters("=, j, h, h, h, i, i, i, i");
+        System.out.println(returns_special_characters("dhk+=wol"));
     }
 
-    public static void returns_special_characters(String numbers) {
-        for (int index = 0; index < numbers.length(); index++) {
-
+    public static boolean returns_special_characters(String string) {
+        String character = "+-_*#%$!@&";
+        for (int index = 0; index < string.length() - 1; index++) {
+            for (int index2 = 0; index2 < character.length() - 1; index2++) {
+                if (string.charAt(index) == character.charAt(index2)) return true;
+            }
         }
-
-            if (numbers.equals("#")) {
-                System.out.println("True");
-            }
-            if (numbers.equals("$")) {
-                System.out.println("True");
-            }
-            if (numbers.equals("_")) {
-                System.out.println("True");
-            }
-            if (numbers.equals("-")) {
-                System.out.println("True");
-            }
-            if (numbers.equals(":")) {
-                System.out.println("True");
-            }
-            if (numbers.equals(";")) {
-                System.out.println("True");
-            }
-            if (numbers.equals("=")) {
-                System.out.println("True");
-            } else {
-                System.out.println("False");
-            }
+        return false;
     }
 }
