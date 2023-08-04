@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Test {
@@ -7,16 +6,16 @@ public class Test {
         String[][] result = new String[2][2];
         int maleTotal = (0);
         int femaleTotal = (0);
-        for (int i = 0; i < studentList.length; i++) {
-            if (studentList[i].equalsIgnoreCase("male")){
+        for (String s : studentList) {
+            if (s.equalsIgnoreCase("male")) {
                 result[0][0] = "male";
                 maleTotal++;
-                result[0][1] = maleTotal+" ";
+                result[0][1] = maleTotal + " ";
             }
-            if (studentList[i].equalsIgnoreCase("female")){
+            if (s.equalsIgnoreCase("female")) {
                 result[1][0] = "female";
                 femaleTotal++;
-                result[1][1] = femaleTotal+" ";
+                result[1][1] = femaleTotal + " ";
             }
         }
         System.out.println(Arrays.deepToString(result));

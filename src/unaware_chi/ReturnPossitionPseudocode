@@ -1,0 +1,7 @@
+create a method setPosition
+create an array with the list of numbers, create another one with an empty array
+loop through the array
+determine the smallest to largest number using the if statement
+in
+[5, 18, 32, 3, 4]
+[3, 2, 1, 5, 4]
