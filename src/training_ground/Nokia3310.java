@@ -11,19 +11,26 @@ public class Nokia3310 {
        offOn();
     }
 
-    public static void offOn (){
-        System.out.println("1. On");
-        System.out.print(">>> ");
-        int on = scanner.nextInt();
-        if (on == 1) {
-            menu_selection();
-        }
-        else {
-            System.out.println("invalid input");
-            offOn();
+
+
+
+        public static void offOn () {
+        try {
+            System.out.println("1. On");
+            System.out.print(">>> ");
+            int on = scanner.nextInt();
+            if (on == 1) {
+                menu_selection();
+            } else {
+                System.out.println("invalid input");
+                offOn();
+            }
+        } catch (Exception exception){
+            System.out.println("invalid!!! ");
         }
     }
-    public static void mainMenu(){
+        public static void mainMenu () {
+        try {
         System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         System.out.println("||||||||||||||||||||||||Nokia 3310|||||||||||||||||||||||||||||||||||||||");
         System.out.println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
@@ -80,10 +87,14 @@ public class Nokia3310 {
         if (validInput == 13) {
             sim_services();
         }
-        if (validInput == 0){
+        if (validInput == 0) {
             System.exit(0);
         }
+        } catch (Exception exception){
+            System.out.println("Invalid!!");
+        }
     }
+
 
     public static void menu_selection() {
             mainMenu();
@@ -91,19 +102,23 @@ public class Nokia3310 {
     }
 
     public static void phonebook() {
-        System.out.println("Phonebook:\n1. Search\n2. Service Nos.\n3. Add name\n4. Erase\n5. Edit.\n6. Assign tone.\n7. Send b'/card\n8. Options.>>\n9. Speed dials.\n10.Voice tags");
-        System.out.println("Press 8 for more options: ");
-        int prompt  = scanner.nextInt();
-        if(prompt == 8) {
-            System.out.println("1. Type of view\n2. Memory status");
-        }
-        if (prompt == 0) {
-            menu_selection();
-        }
-        System.out.println("press any digit to go back");
-        int back = scanner.nextInt();
-        if (back > 0 || back == 0 ) {
-            phonebook();
+        try {
+            System.out.println("Phonebook:\n1. Search\n2. Service Nos.\n3. Add name\n4. Erase\n5. Edit.\n6. Assign tone.\n7. Send b'/card\n8. Options.>>\n9. Speed dials.\n10.Voice tags");
+            System.out.println("Press 8 for more options: ");
+            int prompt = scanner.nextInt();
+            if (prompt == 8) {
+                System.out.println("1. Type of view\n2. Memory status");
+            }
+            if (prompt == 0) {
+                menu_selection();
+            }
+            System.out.println("press any digit to go back");
+            int back = scanner.nextInt();
+            if (back > 0 || back == 0) {
+                phonebook();
+            }
+        } catch (Exception exception){
+            System.out.println("Not valid");
         }
     }
 

@@ -1,6 +1,4 @@
 package special_assignments;
-
-import java.util.Arrays;
 import java.util.Scanner;
 public class StudentGrades {
 
@@ -34,14 +32,14 @@ public class StudentGrades {
         String numbersOfSubject = "Enter score for subject";
 
         for (int index = 1; index <= numberOfStudents; index++) {
-            test[0][0] = String.valueOf(numberOfStudents);
             for (int index2 = 1; index2 <= numberOfSubjects; index2++) {
                 System.out.println(numbersOfStudent + " " + index + " \n" + numbersOfSubject + " " + index2);
                 scoreValidator();
             }
         }
-        System.out.println(Arrays.deepToString(test));
 
 
     }
-}
+
+
+    }
