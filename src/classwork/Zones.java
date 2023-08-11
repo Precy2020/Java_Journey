@@ -1,7 +1,5 @@
 package classwork;
 
-import java.util.ArrayList;
-
 import java.util.Scanner;
 
 public enum Zones {
@@ -12,7 +10,7 @@ public enum Zones {
     SOUTHEAST(new String[]{"Abia, Anambra, Ebonyi, Enugu, Imo States"}),
     SOUTHSOUTH(new String[]{"Akwa_Ibom, Bayelsa, Cross River, Delta, Edo, Rivers States"}),
     SOUTHWEST(new String[]{"Ekiti, Lagos, Ogun, Ondo, Osun, Oyo States"});
-    ;
+
 
 
     Zones(String[] states) {
@@ -34,18 +32,18 @@ public enum Zones {
     }
 
 
-    public static ArrayList<String> userInput(){
+    public static String userInput(){
         System.out.println("Enter your state ");
         String user = input.next();
-        ArrayList<String> arrayList = new ArrayList<>();
+       String arrayList = null;
 
         for (int geopoliticalZone = 0; geopoliticalZone < Zones.values().length; geopoliticalZone++) {
             for (int states = 0; states < geopoliticalZone; geopoliticalZone++) {
                 if (user.equalsIgnoreCase(String.valueOf(states))){
-                    arrayList.add(String.valueOf(states));
+                    arrayList = String.valueOf(states);
                 }
                 else {
-                    arrayList.add("Not valid");
+                    arrayList = "Not valid";
                 }
             }
 
