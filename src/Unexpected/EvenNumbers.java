@@ -1,4 +1,4 @@
-package unaware_chi;
+package Unexpected;
 
 public class EvenNumbers {
     public static void main(String[] args) {

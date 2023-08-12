@@ -1,4 +1,4 @@
-package unaware_chi;
+package Unexpected;
 
 public class Sudoku_with_array {
     public static void main(String[] args) {

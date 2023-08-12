@@ -1,4 +1,4 @@
-package unaware_chi;
+package Unexpected;
 
 import java.util.Scanner;
 

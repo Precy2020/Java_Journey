@@ -1,23 +1,20 @@
-package unaware_chi;
+package Unexpected;
 
 import java.util.Scanner;
 
-public class Add_Sum_and_Average_of_Score {
+public class Collect_Score_and_Print_Average {
     public static void main(String[] args) {
 
         Scanner key = new Scanner(System.in);
         int average = 1;
         int sum = 0;
-        for (int peace = 1; peace <= 10; peace++) {
+        for (int joy = 1; joy <= 10; joy++){
             System.out.print(">>> ");
             int score = key.nextInt();
-
             sum = score + sum;
-            average = sum / average;
-
+            average = score / average;
         }
-        System.out.println("Sum: " + " " + sum);
-        System.out.println("Average: " + " " + average);
+        System.out.println("Sum: "+" "+sum);
+        System.out.println("Average: " + " "+ average);
     }
 }
-

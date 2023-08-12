@@ -1,4 +1,4 @@
-package unaware_chi;
+package Unexpected;
 
 public class Sum_Of_The_Multiples_Of_8 {
     public static void main(String[] args) {

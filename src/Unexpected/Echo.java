@@ -1,4 +1,4 @@
-package unaware_chi;
+package Unexpected;
 
 public class Echo {
     public static void main(String[] args) {

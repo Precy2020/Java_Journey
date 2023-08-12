@@ -1,27 +1,25 @@
-package unaware_chi;
+package Unexpected;
 
 import java.util.Scanner;
 
-public class WhenIt30 {
+public class ValidInput {
+
     public static void main(String[] args) {
 
         Scanner key = new Scanner(System.in);
         int sum = 0;
-        for (int joy = 1; joy <= 10; ){
+        for (int joy = 1; joy <= 10; joy++){
             System.out.print(">>> ");
             int score = key.nextInt();
 
-            if (score == 30) {
-                System.out.println("next");
+            if (score >= 0 && score <= 100 ) {
+                sum = score + sum;
             }
             else{
-                sum = score + sum;
-                joy++;
+                System.out.println("Invalid input");
             }
 
         }
         System.out.println("Sum: "+" "+sum);
     }
 }
-
-

@@ -1,6 +1,4 @@
-package unaware_chi;
-
-import java.util.Arrays;
+package Unexpected;
 
 public class Switch_sudoku {
     public static void main(String[] args) {
