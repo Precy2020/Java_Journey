@@ -20,36 +20,15 @@ public enum Zones {
 
     }
 
-    public void setStates(String[] states) {
-        this.states = states;
-    }
-
-    public String[] getStates() {
-        return states;
-    }
-
-    public static void userInputIsValid(){
+    public static void userInputIsValid() {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your state ");
         String user = input.next();
-        for (Zones state : Zones.values()) {
-           for(String s : state.states){
-               if (s.equalsIgnoreCase(user)){
-                   System.out.println(state);
-               }
-               else{
-                   System.out.println("Invalid");
-               }
-           }
-        }
+
+
     }
 
-
-
-
 }
-
-
 
 
 
