@@ -1,4 +1,4 @@
-//package training_ground;
+//package Data_Structures;
 //
 //public class ArrayList {
 //
@@ -41,14 +41,13 @@
 //        return list[index];
 //    }
 //
-//    private int size() {
+//    private void size() {
 //        int size = list;
 //        for (int digits : list) {
-//            if (digits != null){
-//                size++;
+//            if (digits != 0){
+//                size;
 //            }
 //        }
-//         return size;
 //    }
 //
 //

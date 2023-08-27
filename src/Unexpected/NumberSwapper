@@ -1,0 +1,4 @@
+loop through the inputted number in the list and swap the even indexes with the odd ones
+1. swap every even number right to left
+2. take an array an swap the numbers if both are odd numbers else dont swap
+

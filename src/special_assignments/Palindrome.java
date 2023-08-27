@@ -24,7 +24,7 @@ public class Palindrome {
 
     public static boolean palindrome2 (int letters){
         boolean check = false;
-        String letter = letters + "";
+        String letter = letters + " ";
 
         String peace = "";
         for (int counter = letter.length()-1; counter >= 0; counter--){

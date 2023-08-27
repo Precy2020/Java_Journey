@@ -1,6 +1,8 @@
+package training_ground;
+
 import java.util.Arrays;
 
-public class Test {
+public class Strings {
     public static void main(String[] args) {
         String[] studentList = {"male","female","male","female","male","male","male","female","female","male","male","male"};
         String[][] result = new String[2][2];
