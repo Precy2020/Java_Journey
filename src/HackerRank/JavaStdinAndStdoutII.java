@@ -13,4 +13,4 @@ public class JavaStdinAndStdoutII {
             System.out.println("Int: " + i);
         }
     }
-}
+

@@ -43,7 +43,7 @@ public class Account {
             pin = newPin;
     }
 
-    public void accountNumber() {
-        
+    public String getAccountNumber() {
+        return accountNumber;
     }
 }
