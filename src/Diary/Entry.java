@@ -5,6 +5,23 @@ import java.time.LocalDateTime;
 public class Entry {
     private int id;
     private String title;
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setBody(String body) {
+        this.body = body;
+    }
+
+    public void setDateCreated(LocalDateTime dateCreated) {
+        this.dateCreated = dateCreated;
+    }
+
     private String body;
     private LocalDateTime dateCreated;
 
@@ -14,13 +31,6 @@ public class Entry {
 
     }
 
-    public void createEntry(String title, String body){
-
-    }
-
-    public void deleteEntry(int id){
-
-    }
     public int findEntryById(int id){
         if(this.id == id)
           return id;
@@ -28,7 +38,9 @@ public class Entry {
             throw new IllegalArgumentException("Invalid");
         }
     public void updateEntry(int id, String title, String body){
-
+            this.id = id;
+            this.title = title;
+            this.body = body;
     }
 
 

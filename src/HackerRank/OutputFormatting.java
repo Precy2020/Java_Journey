@@ -9,7 +9,8 @@ public class OutputFormatting {
         for(int i=0;i<3;i++){
             String string =input.next();
             int number  = input.nextInt();
-            System.out.printf("%s\t\t%03d%n", string, number);
+            System.out.printf("%-15s", string);
+            System.out.printf("%03d%n", number );
         }
         System.out.println("================================");
 

@@ -1,13 +1,14 @@
 package Diary;
 
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class Diary {
-    private List<Entry> entries = new ArrayList<>();
+    private ArrayList<Entry> entries = new ArrayList<>();
     private String userName;
     private String password;
     private boolean isLocked;
+
 
     public Diary(String userName, String password) {
         this.userName = userName;
@@ -15,35 +16,57 @@ public class Diary {
     }
 
 
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     public void unlockDiary(String password) {
-        if(this.password.equals(password))
-           this.password = password;
+        if (this.password.equals(password)){
+            isLocked = false;
+        }
     }
 
-    public void lockDiary(){
-        diaryIsLocked();
-    }
-    private boolean diaryIsLocked(){
-        boolean  lock = this.isLocked();
-        return true;
+    public void locked(String password){
+        if (this.password.equals(password)){
+            isLocked = true;
+        }
     }
 
-    public boolean isLocked(){
+
+    public boolean isLocked(String password){
         return isLocked;
     }
 
+
+
     public void createEntry(String title, String body){
+        Entry entry = new Entry(title, body);
+        entries.add(entry);
 
     }
-    public void deleteEntry(){
+    public void deleteEntry(int id){
+        if(findEntryById(id) != null)
+            entries.remove(id);
+    }
+
+    public Entry findEntryById(int id){
+        for (Entry entry: entries) {
+            if(entry.findEntryById(id) == id)
+                return entry;
+        }
+             return null;
+    }
+
+    public void updateEntry(int id, String title, String body){
+        findEntryById(id).setId(id);
+        findEntryById(id).setTitle(title);
+        findEntryById(id).setBody(body);
 
     }
 
-//    public Entry findEntryById(int id){
-//        for (Entry entry: entries) {
-//            entry.findEntryById(id);
-//        }
-//
-//    }
 
 }

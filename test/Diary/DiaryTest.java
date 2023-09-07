@@ -1,20 +1,30 @@
 package Diary;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class DiaryTest {
-    private Diary diary = new Diary("username", "password");
+    Diary diary = new Diary("Precy", "1234");
 
     @Test
-    public void TestThatDiaryExist(){
+    public void testThatDiaryExists(){
         assertNotNull(diary);
     }
 
     @Test
-    public void TestThatTheDiaryIsNotLocked(){
-        diary.unlockDiary("password");
+    public void testThatUsernameCanBeSet(){
+        diary.setUserName("Precy");
+        assertEquals("Precy", diary.getUserName());
     }
+
+    @Test
+    public void testThatDiaryCanBeUnlocked(){
+
+    }
+
+
 }

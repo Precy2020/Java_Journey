@@ -39,4 +39,8 @@ public class Bank {
         findAccount(accountNumber).withdraw(withdraw, pin);
     }
 
+    public void bankCanTransfer(){
+
+    }
+
 }
