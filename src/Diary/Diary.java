@@ -30,16 +30,9 @@ public class Diary {
         }
     }
 
-    public void locked(String password){
-        if (this.password.equals(password)){
-            isLocked = true;
-        }
+    public void locked(){
     }
 
-
-    public boolean isLocked(String password){
-        return isLocked;
-    }
 
 
 
