@@ -1,7 +1,6 @@
 package Diary;
 
 import java.util.ArrayList;
-import java.util.Objects;
 
 public class Diaries {
     private static ArrayList<Diary> diaries = new ArrayList<>();
@@ -13,10 +12,14 @@ public class Diaries {
     }
     public Diary findByUsername(String username){
         for (Diary search: diaries) {
-            if (search.getUserName().equals(username)){
+            if (search.getUsername().equals(username)){
                 return search;
             }
         }
         return null;
     }
+
+     public void deleteDiary(String username, String password){
+         diaries.removeIf(collections -> collections.getUsername().equals(username) && collections.getPassword().equals(password));
+     }
 }

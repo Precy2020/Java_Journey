@@ -5,45 +5,56 @@ import java.util.ArrayList;
 
 public class Diary {
     private ArrayList<Entry> entries = new ArrayList<>();
-    private String userName;
+    private String username;
     private String password;
     private boolean isLocked;
 
 
     public Diary(String userName, String password) {
-        this.userName = userName;
+        this.username = userName;
         this.password = password;
+        this.isLocked = true;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
     }
 
 
-    public String getUserName() {
-        return userName;
+
+    public boolean unlockDiary(String password) {
+        validate(password);
+           return isLocked;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public void unlockDiary(String password) {
-        if (this.password.equals(password)){
+    private void validate(String password) {
+        if (this.password.equals(password))
             isLocked = false;
-        }
-    }
-
-    public void locked(){
     }
 
 
-
+    public boolean locked(){
+        return isLocked;
+    }
 
     public void createEntry(String title, String body){
         Entry entry = new Entry(title, body);
         entries.add(entry);
 
     }
+
+    public ArrayList<Entry> getEntry(){
+        return entries;
+    }
     public void deleteEntry(int id){
         if(findEntryById(id) != null)
             entries.remove(id);
+        else
+            throw new NullPointerException("there's nothing here");
     }
 
     public Entry findEntryById(int id){
@@ -51,15 +62,21 @@ public class Diary {
             if(entry.findEntryById(id) == id)
                 return entry;
         }
-             return null;
+        throw new NullPointerException("there's nothing here!");
     }
+
+
 
     public void updateEntry(int id, String title, String body){
-        findEntryById(id).setId(id);
-        findEntryById(id).setTitle(title);
-        findEntryById(id).setBody(body);
+        for (Entry entry: entries) {
+            entry.updateEntry(id, title, body);
+        }
+     }
 
-    }
+
 
 
 }
+
+
+
