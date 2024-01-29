@@ -32,8 +32,8 @@ public class Bank {
         findAccount(accountNumber).deposit(deposit);
     }
 
-    public int getBalance(String accountNumber) {
-        return findAccount(accountNumber).getBalance();
+    public int getBalance(String accountNumber, String pin) {
+        return findAccount(accountNumber).getBalance(pin);
     }
 
     public void canWithdraw(String accountNumber, int withdraw, String pin) {
@@ -49,7 +49,7 @@ public class Bank {
                 throw new IllegalArgumentException("Invalid source or destination account number");
             }
 
-            if (sourceAccount.getBalance() < amount) {
+            if (sourceAccount.getBalance("pin") < amount) {
                 throw new IllegalArgumentException("Insufficient funds for the transfer");
             }
 

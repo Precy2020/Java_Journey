@@ -15,14 +15,14 @@ public class AccountTest {
     @Test
     public void Test_That_Account_CanDeposit(){
         account.deposit(2000);
-        assertEquals(2000, account.getBalance());
+        assertEquals(2000, account.getBalance("1234"));
     }
 
     @Test
     public void Test_That_Account_CanWithdraw(){
         account.deposit(5000);
         account.withdraw(2000, "1234");
-        assertEquals(3000, account.getBalance());
+        assertEquals(3000, account.getBalance("1234"));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class AccountTest {
         account.updatePin("1234", "4321");
         account.deposit(3000);
         account.withdraw(1000, "4321");
-        assertEquals(2000, account.getBalance());
+        assertEquals(2000, account.getBalance("4321"));
     }
 
 

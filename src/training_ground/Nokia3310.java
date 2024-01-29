@@ -132,7 +132,7 @@ public class Nokia3310 {
         menu_selection();
     }
     public static void message_7(){
-        System.out.println("1. Set>>\n 2. Common>>");
+        System.out.println("1. Sets>>\n 2. Common>>");
         System.out.println("choose from option: ");
         int seven = scanner.nextInt();
         if(seven == 1){

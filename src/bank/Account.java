@@ -7,11 +7,6 @@ public class Account {
     private String accountNumber;
 
 
-
-    public String getPin() {
-        return pin;
-    }
-
     public String getAccountName() {
         return accountName;
     }
@@ -31,8 +26,10 @@ public class Account {
         }
     }
 
-    public int getBalance() {
-        return balance;
+    public int getBalance(String pin) {
+        if(this.pin.equals(pin)) return balance;
+        else throw new IllegalArgumentException();
+
     }
 
     public void withdraw(int withdraw, String enteredPin) {

@@ -22,7 +22,7 @@ public class PhoneTest {
     public void TestThatMessageIsInTheMenu(){
         nokia.power(true);
         assertTrue(nokia.power());
-        nokia.setMessages("1. Write messages", "2. Inbox", "3. Outbox", "4. Picture messages", "5. Templates", "6. Smileys", "7. Message settings", "1. Set 1", "1. Message centre number", "2. Message sent as", "3. Message validity", "2. Common", "1. Delivery reports", "2. Reply via same centre", "3. Character support", "8. Info service"," 9. Voice mailbox number", "10. Service command editor");
+        nokia.setMessages("1. Write messages", "2. Inbox", "3. Outbox", "4. Picture messages", "5. Templates", "6. Smileys", "7. Message settings", "1. Sets 1", "1. Message centre number", "2. Message sent as", "3. Message validity", "2. Common", "1. Delivery reports", "2. Reply via same centre", "3. Character support", "8. Info service"," 9. Voice mailbox number", "10. Service command editor");
         assertTrue(nokia.getMessages());
     }
 
